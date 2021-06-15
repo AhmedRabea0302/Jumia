@@ -1,0 +1,120 @@
+/* General
+==========================*/
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.wrapper {
+    position: relative;
+    padding-bottom: 2.5rem; /* Footer height */
+}
+.btn:focus {
+    border: none;
+    outline: none;
+}
+
+.btn:active {
+    border: none;
+    stroke: none;
+    outline: none;
+}
+/* ================ NavBar Section ================ */
+.navbar {
+    background: #fff;
+    border: none;
+    border-bottom: 2px solid #f99427;
+    /* padding-bottom: 10px; */
+    margin: auto;
+    padding: 0;
+    height: 70px;
+}
+
+.navbar-brand {
+    height: 70px;
+}
+
+.navbar-brand > img {
+    margin-top: -16px;
+    width: 200px;
+    height: 75px;
+}
+
+.table thead {
+    background-color: #f99427;
+    color: #fff;
+    border: 2px solid #f99427;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #f99427;
+}
+.pagination .page-item.active .page-link {
+    background-color: #f99427;
+    color: #fff;
+}
+
+.pagination .page-item .page-link {
+    color: #f99427;
+    border-color: #f99427;
+}
+
+.pagination .page-item .page-link:focus {
+    border: 1px solid #f99427;
+}
+/* ================ PHONES PAGE ================ */
+.phones {
+    min-height: 100vh;
+}
+.phones h1 {
+    color: #282828;
+}
+
+.phones .filters {
+    margin: 20px 0;
+}
+
+.phones .filters .country {
+    padding-left: 0;
+}
+
+.phones .filters .state {
+    padding-right: 10px;
+}
+
+.phones .table {
+    font-family: monospace;
+}
+
+.phones .table thead tr th {
+    border-color: #fff;
+}
+
+.form-control {
+    box-shadow: inset 0 2px 2px rgb(249 148 39);
+    border: 1px solid #f99427;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    box-shadow: inset 0 1px 1px rgb(249 148 39);
+    border: 2px solid #f99427;
+}
+/* ================ FOOTER Section ================ */
+footer {
+    background: #f99427;
+    color: #fff;
+    padding: 10px 0 0 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+footer a {
+    color: #fff;
+    height: 2.5rem;
+    text-decoration: none;
+}
