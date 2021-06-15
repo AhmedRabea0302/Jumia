@@ -24,7 +24,7 @@ paginationUl.addEventListener('click', event => {
 
     let siblings = document.querySelectorAll('.page-item');
     siblings.forEach(s => s.classList.remove('active'));
-    if(event.target.getAttribute('aria-label') != 'Next »') {
+    if(event.target.getAttribute('aria-label') != 'Next »' && event.target.getAttribute('aria-label') != '« Previous') {
         event.target.parentElement.classList.add('active');
     }
     
