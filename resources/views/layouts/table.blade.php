@@ -20,7 +20,7 @@
                                     <td>{{ $num->country ?? '' }}</td>
                                     <td>{{ $num->state }}</td>
                                     <td>+{{ $num->code }}</td>
-                                    <td>{{ $num->phone }}</td>
+                                    <td>{{ $num->phone_num }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
